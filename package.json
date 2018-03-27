@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-ericbiewener",
+  "version": "1.0.4",
+  "description": "Personal ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericbiewener/eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Eric Biewener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericbiewener/eslint/issues"
+  },
+  "homepage": "https://github.com/ericbiewener/eslint#readme"
+}
