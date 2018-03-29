@@ -4,6 +4,7 @@ module.exports = {
     'ecmaFeatures': {
       'jsx': true
     },
+    'ecmaVersion': 2017,
     'sourceType': 'module'
   },
   'rules': {
