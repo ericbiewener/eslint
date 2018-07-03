@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericbiewener",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Personal ESLint config",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ericbiewener/eslint/issues"
   },
-  "homepage": "https://github.com/ericbiewener/eslint#readme"
+  "homepage": "https://github.com/ericbiewener/eslint#readme",
+  "dependencies": {
+    "eslint-plugin-react": "^7.10.0"
+  }
 }
