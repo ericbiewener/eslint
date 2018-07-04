@@ -34,6 +34,7 @@ module.exports = {
       'error',
       'never'
     ],
+    'no-cond-assign': 0,
     'react/prop-types': 0,
   }
 }
