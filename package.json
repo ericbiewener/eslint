@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericbiewener",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Personal ESLint config",
   "main": "index.js",
   "scripts": {
