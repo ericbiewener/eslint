@@ -32,7 +32,11 @@ module.exports = {
     'prefer-const': 2,
     'object-curly-spacing': [
       'error',
-      'never'
+      'always'
+    ],
+    "comma-dangle": [
+      "error",
+      "always"
     ],
     'no-cond-assign': 0,
     'react/prop-types': 0,
