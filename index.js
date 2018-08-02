@@ -34,11 +34,15 @@ module.exports = {
       'error',
       'always'
     ],
-    "comma-dangle": [
-      "error",
-      "always-multiline"
+    'comma-dangle': [
+      'error',
+      'always-multiline'
     ],
     'no-cond-assign': 0,
     'react/prop-types': 0,
+    'no-unused-vars': [
+      'error',
+      { ignoreRestSiblings: true },
+    ]
   }
 }
