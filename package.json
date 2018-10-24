@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericbiewener",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Personal ESLint config",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/ericbiewener/eslint#readme",
   "dependencies": {
-    "eslint": "^5.7.0",
     "eslint-plugin-react": "^7.10.0"
   },
   "devDependencies": {
@@ -40,5 +39,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "peerDependencies": {}
+  "peerDependencies": {
+    "eslint": "^5.7.0"
+  }
 }
