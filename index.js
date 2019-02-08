@@ -18,7 +18,10 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     'comma-dangle': ['error', 'always-multiline'],
     'no-cond-assign': 0,
-    'react/prop-types': 0,
+    'no-throw-literal': 2,
     'no-unused-vars': ['error', { ignoreRestSiblings: true }],
+
+    // React
+    'react/prop-types': 0,
   },
 }

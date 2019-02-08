@@ -1,6 +1,6 @@
 {
   "extends": "./index.js",
   "env": {
-    "commonjs": true,
+    "commonjs": true
   }
 }

@@ -9,3 +9,4 @@ const commaDangle2 = [
   'two',
 ]
 
+throw 'Hey'
