@@ -21,5 +21,6 @@
   "homepage": "https://github.com/ericbiewener/eslint#readme",
   "dependencies": {
     "base": "1.0.0"
-  }
+  },
+  "gitHead": "868cfe84b6bcfa88c0af15e54478d521e4444511"
 }
