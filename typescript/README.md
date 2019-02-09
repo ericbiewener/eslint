@@ -1,1 +1,1 @@
-Personal eslint confg
+Personal eslint confg for Typescript
