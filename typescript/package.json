@@ -13,6 +13,9 @@
     "typescript",
     "tslint"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Eric Biewener",
   "license": "ISC",
   "bugs": {
@@ -22,5 +25,5 @@
   "dependencies": {
     "base": "1.0.0"
   },
-  "gitHead": "868cfe84b6bcfa88c0af15e54478d521e4444511"
+  "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
 }
