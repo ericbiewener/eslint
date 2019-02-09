@@ -1,0 +1,27 @@
+{
+  "name": "@ericbiewener/eslint-config-base",
+  "version": "1.0.0",
+  "description": "Personal ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericbiewener/eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Eric Biewener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericbiewener/eslint/issues"
+  },
+  "homepage": "https://github.com/ericbiewener/eslint#readme",
+  "dependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint-plugin-react": "7.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "5.7.0"
+  }
+}

@@ -20,6 +20,7 @@ module.exports = {
     'no-cond-assign': 0,
     'no-throw-literal': 2,
     'no-unused-vars': ['error', { ignoreRestSiblings: true }],
+    'no-unused-expression': 2,
 
     // React
     'react/prop-types': 0,
