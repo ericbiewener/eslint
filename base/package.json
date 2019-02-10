@@ -1,6 +1,6 @@
 {
-  "name": "@ericbiewener/eslint-config-base",
-  "version": "1.0.2",
+  "name": "eslint-config-ericbiewener",
+  "version": "3.0.0",
   "description": "Personal ESLint config",
   "main": "index.js",
   "repository": {

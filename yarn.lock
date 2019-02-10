@@ -1070,15 +1070,15 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
-base@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/base/-/base-1.0.0.tgz#b72f593016ce50bc6376bf4da01fcb87bbd1cc90"
-  integrity sha512-okJ/HJH2Se3oZrFxR6D1zwDvDfRt94vLyDNsdSHuM/wkfRB4TrvjMzJr9TFMJe9oQ20eSO+jKdtrknxreXGhJg==
+base@*:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/base/-/base-3.0.0.tgz#e1041718cdcbf7046af5c748c7d90f4db100d980"
+  integrity sha512-r2saQUT6pw+ghTxWd70AmNRF0Xc4m6xPWISuL3+p4inZm+uA8vE1gX6Lub47hI9csIONq9i/bU+wtntzk+7XoQ==
   dependencies:
-    cache-base "^2.0.2"
-    define-property "^1.0.0"
-    isobject "^3.0.1"
-    mixin-deep "^1.2.0"
+    cache-base "^4.0.0"
+    define-property "^2.0.2"
+    kind-of "^6.0.2"
+    mixin-deep "^1.3.1"
     pascalcase "^0.1.1"
 
 base@^0.11.1:
@@ -1207,16 +1207,17 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
-cache-base@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/cache-base/-/cache-base-2.0.2.tgz#c9f0cd8db658cc5d9f3db208828c47129e7b4814"
-  integrity sha512-qU8SRzqRQwZAfk9iwBfcr2fod7LuugGE+zdGzejudnWia0cIMA+sizwpJmL8JNxuvdwUE+RAvstFG6l3FaRIfA==
+cache-base@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cache-base/-/cache-base-4.0.0.tgz#e9c181bd61443644bfcf98c583173301976eac61"
+  integrity sha512-Ou2dop27F3N1xwvdO0Y3QYM1uuhSgpHezJqIItIVmWtWhOXkRAM0k56gJZjTV+wbJwwA+hI4iq0Tl6HmFm0IzQ==
   dependencies:
     "@sellside/emitter" "^1.2.1"
     collection-visit "^1.0.0"
-    get-value "^2.0.6"
-    isobject "^3.0.1"
-    set-value "^2.0.0"
+    get-value "^3.0.1"
+    has-own-deep "^1.1.0"
+    kind-of "^6.0.2"
+    set-value "^3.0.0"
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
@@ -2470,6 +2471,13 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
 
+get-value@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/get-value/-/get-value-3.0.1.tgz#5efd2a157f1d6a516d7524e124ac52d0a39ef5a8"
+  integrity sha512-mKZj9JLQrwMBtj5wxi6MH8Z5eSKaERpAwjg43dPtlGI1ZVEgH/qC7T8/6R2OBSUA+zzHBZgICsVJaEIV2tKTDA==
+  dependencies:
+    isobject "^3.0.1"
+
 getpass@^0.1.1:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
@@ -2637,6 +2645,13 @@ has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
   integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+
+has-own-deep@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/has-own-deep/-/has-own-deep-1.1.0.tgz#993e2da6186852456946dca38c395b002ddded2d"
+  integrity sha512-L/DJZjD6am57lgeULwqH2S1G9MDUltYLC/qkY18sFIphd/6ONhZJq+SSlCBniPoT2BS73t1O3sgepbDIZly3gg==
+  dependencies:
+    isobject "^3.0.1"
 
 has-symbols@^1.0.0:
   version "1.0.0"
@@ -3828,7 +3843,7 @@ mississippi@^3.0.0:
     stream-each "^1.1.0"
     through2 "^2.0.0"
 
-mixin-deep@^1.2.0:
+mixin-deep@^1.2.0, mixin-deep@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/mixin-deep/-/mixin-deep-1.3.1.tgz#a49e7268dce1a0d9698e45326c5626df3543d0fe"
   integrity sha512-8ZItLHeEgaqEvd5lYBXfm4EZSFCX29Jb9K+lAHhDKzReKBQKj3R+7NOF6tjqYi9t4oI8VUfaWITJQm86wnXGNQ==
@@ -5030,6 +5045,13 @@ set-value@^2.0.0:
     is-extendable "^0.1.1"
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
+
+set-value@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/set-value/-/set-value-3.0.0.tgz#bc021514f46effed8176fd5f0f67e9988531141f"
+  integrity sha512-tqkg9wJ2TOsxbzIMG5NMAmzjdbDTAD0in7XuUzmFpJE4Ipi2QFBfgC2Z1/gfxcAmWCPsuutiEJyDIMRsrjrMOQ==
+  dependencies:
+    is-plain-object "^2.0.4"
 
 shebang-command@^1.2.0:
   version "1.2.0"
