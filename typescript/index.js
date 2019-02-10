@@ -1,5 +1,8 @@
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
+  ],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
