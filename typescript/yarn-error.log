@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/ericbiewener/.nvm/versions/node/v10.15.0/bin/node /Users/ericbiewener/.yarn/bin/yarn.js add -E @typescript-eslint/parser @typescript-eslint/plugin
+
+PATH: 
+  /Users/ericbiewener/.yarn/bin:/Users/ericbiewener/.config/yarn/global/node_modules/.bin:/usr/local/opt/openvpn/sbin:/Users/ericbiewener/.nvm/versions/node/v10.15.0/bin:/usr/local/bin:/Users/ericbiewener/bin:/Users/ericbiewener/.yarn/bin:/Users/ericbiewener/.config/yarn/global/node_modules/.bin:/usr/local/opt/openvpn/sbin:/usr/local/bin:/Users/ericbiewener/bin:/Users/ericbiewener/.yarn/bin:/Users/ericbiewener/.config/yarn/global/node_modules/.bin:/usr/local/opt/openvpn/sbin:/Users/ericbiewener/.rvm/gems/ruby-2.4.0/bin:/Users/ericbiewener/.rvm/gems/ruby-2.4.0@global/bin:/Users/ericbiewener/.rvm/rubies/ruby-2.4.0/bin:/usr/local/bin:/Users/ericbiewener/bin:/Users/ericbiewener/Library/Python/3.6/bin:/Users/ericbiewener/Library/Python/3.7/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/ericbiewener/.rvm/bin:/Users/ericbiewener/.rvm/bin:/Users/ericbiewener/.rvm/bin:/Users/ericbiewener/.rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@typescript-eslint%2fplugin: Not found
+      at Request.params.callback [as _callback] (/Users/ericbiewener/.yarn/lib/cli.js:66255:18)
+      at Request.self.callback (/Users/ericbiewener/.yarn/lib/cli.js:129397:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/ericbiewener/.yarn/lib/cli.js:130369:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/ericbiewener/.yarn/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "eslint-config-ericbiewener-typescript",
+    "version": "3.1.0",
+    "description": "Personal ESLint config for Typescript projects",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ericbiewener/eslint.git"
+    },
+    "keywords": [
+      "eslint",
+      "eslintconfig",
+      "typescript",
+      "tslint"
+    ],
+    "publishConfig": {
+      "access": "public"
+    },
+    "author": "Eric Biewener",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ericbiewener/eslint/issues"
+    },
+    "homepage": "https://github.com/ericbiewener/eslint#readme",
+    "dependencies": {
+      "base": "*"
+    },
+    "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

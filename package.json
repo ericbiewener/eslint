@@ -1,30 +1,15 @@
 {
   "name": "eslint-config-ericbiewener",
-  "version": "2.0.3",
-  "description": "Personal ESLint config",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ericbiewener/eslint.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslintconfig"
+  "private": true,
+  "workspaces": [
+    "./*"
   ],
-  "author": "Eric Biewener",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ericbiewener/eslint/issues"
-  },
-  "homepage": "https://github.com/ericbiewener/eslint#readme",
-  "dependencies": {
-    "eslint-plugin-react": "^7.10.0"
-  },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.2.0",
-    "prettier-eslint-cli": "^4.7.1"
+    "husky": "1.3.1",
+    "lerna": "3.11.0",
+    "lint-staged": "8.1.3",
+    "prettier-eslint-cli": "4.7.1"
   },
   "lint-staged": {
     "**/*.js": [
@@ -36,8 +21,5 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  },
-  "peerDependencies": {
-    "eslint": "^5.7.0"
   }
 }
