@@ -2,5 +2,8 @@
   "extends": "./base/index.js",
   "env": {
     "commonjs": true
+  },
+  "rules": {
+    "no-unused-expression": 0
   }
 }
