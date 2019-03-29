@@ -12,6 +12,7 @@ module.exports = {
   },
   rules: {
     "interface-over-type-literal": 0,
+    "require-array-sort-compare": 0,
     "@typescript-eslint/no-unused-vars": 0,
     "@typescript-eslint/no-use-before-define": [
       2,
