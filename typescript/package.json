@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericbiewener-typescript",
-  "version": "3.2.3",
+  "version": "3.3.0",
   "description": "Personal ESLint config for Typescript projects",
   "main": "index.js",
   "repository": {
@@ -27,7 +27,7 @@
     "@typescript-eslint/parser": "1.4.1",
     "babel-eslint": "11.0.0-beta.0",
     "base": "*",
-    "eslint-config-ericbiewener": "^3.2.2",
+    "eslint-config-ericbiewener": "^3.3.0",
     "typescript": "3.3.3333"
   },
   "peerDependencies": {
