@@ -132,13 +132,20 @@ es-to-primitive@^1.2.0:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-eslint-config-ericbiewener@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-ericbiewener/-/eslint-config-ericbiewener-3.2.0.tgz#155f1b0dadde9bace5ccc14d6e3fb0609a0215fc"
-  integrity sha512-+z/i857cqSUoRH6KG2je1UpxX1GNJsKJya5ryHx7zjTdzqY5TLAKqKshRILh9KsaWcIBALbvZalMa1hzPiRL3Q==
+eslint-config-ericbiewener@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-ericbiewener/-/eslint-config-ericbiewener-3.2.2.tgz#70cc97b44584876d950b5a7256335a9778266867"
+  integrity sha512-7H6+YUoTpK0PPgbeBd4DjrvTq+p8GJYLsgdpoQBvhZ6SNiX7+EX65IGXHQPjOPdfkm7R+Mr6i1CI04f8HNaFmg==
   dependencies:
     babel-eslint "11.0.0-beta.0"
     eslint-plugin-react "7.12.4"
+
+eslint-config-prettier@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-4.1.0.tgz#181364895899fff9fd3605fecb5c4f20e7d5f395"
+  integrity sha512-zILwX9/Ocz4SV2vX7ox85AsrAgXV3f2o2gpIicdMIOra48WYqgUnWNH/cR/iHtmD2Vb3dLSC3LiEJnS05Gkw7w==
+  dependencies:
+    get-stdin "^6.0.0"
 
 eslint-plugin-react@7.12.4:
   version "7.12.4"
@@ -207,6 +214,11 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
+
+get-stdin@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
+  integrity sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
 
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
