@@ -1,9 +1,9 @@
 module.exports = {
   extends: [
     "plugin:@typescript-eslint/recommended",
-    "ericbiewener",
     "prettier",
-    "prettier/@typescript-eslint"
+    "prettier/@typescript-eslint",
+    "ericbiewener"
   ],
   plugins: ["@typescript-eslint"],
   parser: "@typescript-eslint/parser",
@@ -11,10 +11,7 @@ module.exports = {
     project: "./tsconfig.json"
   },
   rules: {
-    indent: "off",
-    "no-unused-expression": 0,
-    "no-use-before-define": 0,
-    "no-unused-vars": 0,
+    "interface-over-type-literal": 0,
     "@typescript-eslint/no-unused-vars": 0,
     "@typescript-eslint/no-use-before-define": [
       2,
