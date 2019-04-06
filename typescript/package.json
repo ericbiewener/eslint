@@ -33,8 +33,5 @@
   "peerDependencies": {
     "eslint": "5.7.0"
   },
-  "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541",
-  "devDependencies": {
-    "eslint-config-prettier": "4.1.0"
-  }
+  "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
 }
