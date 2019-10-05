@@ -20,7 +20,7 @@ module.exports = {
     'no-cond-assign': 'off',
     'no-throw-literal': 'error',
     'no-unused-vars': ['error', { ignoreRestSiblings: true }],
-    'no-unused-expression': 'error',
+    'no-unused-expressions': 'error',
     'no-unexpected-multiline': 'error',
     'max-len': [
       'error',
