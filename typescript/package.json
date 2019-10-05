@@ -31,7 +31,7 @@
     "typescript": "3.5.3"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^6.5.0"
   },
   "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
 }
