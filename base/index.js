@@ -37,4 +37,20 @@ module.exports = {
     // React
     'react/prop-types': 0,
   },
+  overrides: [
+    {
+      files: ['**/*.test.{ts,tsx,js,jsx}', '**/testUtils.{ts,tsx,js,jsx}'],
+      env: {
+        jest: true,
+      },
+      rules: {
+        'no-empty': 'off',
+        'max-nested-callbacks': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-object-literal-type-assertion': 'off',
+        '@typescript-eslint/no-non-null-assertion': 'off',
+        '@typescript-eslint/ban-ts-ignore': 'off',
+      },
+    },
+  ],
 }
