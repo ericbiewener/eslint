@@ -1,12 +1,12 @@
 module.exports = {
-  extends: './base/index.js',
+  extends: "./base/index.js",
   env: {
-    commonjs: true,
+    commonjs: true
   },
   rules: {
-    'no-unused-expression': 0,
+    "no-unused-expression": 0
   },
   parserOptions: {
-    requireConfigFile: false,
-  },
-}
+    requireConfigFile: false
+  }
+};
