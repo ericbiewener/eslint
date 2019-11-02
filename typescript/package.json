@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericbiewener-typescript",
-  "version": "5.2.1",
+  "version": "5.2.2",
   "description": "Personal ESLint config for Typescript projects",
   "main": "index.js",
   "repository": {
