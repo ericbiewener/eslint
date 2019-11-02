@@ -6,9 +6,9 @@
   ],
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "7.6.2",
-    "husky": "3.0.8",
-    "lint-staged": "9.4.1",
+    "@babel/core": "7.6.4",
+    "husky": "3.0.9",
+    "lint-staged": "9.4.2",
     "prettier-eslint-cli": "5.0.0"
   },
   "lint-staged": {
