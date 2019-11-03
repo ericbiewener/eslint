@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericbiewener",
-  "version": "5.2.2",
+  "version": "5.3.0",
   "description": "Personal ESLint config",
   "main": "index.js",
   "repository": {
@@ -28,5 +28,8 @@
   "peerDependencies": {
     "eslint": "^6.5.1"
   },
-  "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
+  "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541",
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^2.2.0"
+  }
 }

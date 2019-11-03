@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
+  plugins: ['react-hooks'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
@@ -41,6 +42,8 @@ module.exports = {
 
     // React
     'react/prop-types': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
   },
   overrides: [
     {
