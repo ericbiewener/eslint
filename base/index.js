@@ -28,6 +28,7 @@ module.exports = {
     'no-unused-vars': ['error', { ignoreRestSiblings: true }],
     'no-unused-expressions': 'error',
     'no-unexpected-multiline': 'error',
+    'no-prototype-builtins': 'off',
     'max-len': [
       'error',
       {
