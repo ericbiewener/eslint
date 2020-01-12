@@ -14,6 +14,7 @@ module.exports = {
     'interface-over-type-literal': 'off',
     'require-array-sort-compare': 'off',
     'no-unused-vars': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/prefer-interface': 'off',
     '@typescript-eslint/no-use-before-define': [
