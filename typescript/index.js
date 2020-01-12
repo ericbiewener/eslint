@@ -11,18 +11,21 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
-    'interface-over-type-literal': 'off',
-    'require-array-sort-compare': 'off',
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/prefer-interface': 'off',
+    'interface-over-type-literal': 0,
+    'require-array-sort-compare': 0,
+    'no-unused-vars': 0,
+    '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/no-unused-vars-experimental': [
+      'error',
+      { ignoreArgsIfArgsAfterAreUsed: true },
+    ],
+    '@typescript-eslint/prefer-interface': 0,
     '@typescript-eslint/no-use-before-define': [
       'error',
       { functions: false, classes: false },
     ],
-    '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/explicit-function-return-type': 0,
+    '@typescript-eslint/no-non-null-assertion': 0,
     '@typescript-eslint/explicit-member-accessibility': [
       'error',
       { accessibility: 'no-public' },
@@ -32,7 +35,7 @@ module.exports = {
     {
       files: ['**/*.js'],
       rules: {
-        '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/no-var-requires': 0,
       },
     },
   ],
