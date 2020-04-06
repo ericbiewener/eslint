@@ -20,14 +20,12 @@
     "url": "https://github.com/ericbiewener/eslint/issues"
   },
   "homepage": "https://github.com/ericbiewener/eslint#readme",
-  "dependencies": {
+  "peerDependencies": {
     "babel-eslint": "11.0.0-beta.0",
+    "eslint": "^6.5.1",
     "eslint-config-prettier": "6.9.0",
     "eslint-plugin-react": "7.17.0",
     "eslint-plugin-react-hooks": "2.3.0"
-  },
-  "peerDependencies": {
-    "eslint": "^6.5.1"
   },
   "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
 }

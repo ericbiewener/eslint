@@ -23,15 +23,15 @@
   },
   "homepage": "https://github.com/ericbiewener/eslint#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2.15.0",
-    "@typescript-eslint/parser": "2.15.0",
-    "babel-eslint": "11.0.0-beta.0",
     "base": "*",
-    "eslint-config-ericbiewener": "5.4.0",
-    "typescript": "3.7.4"
+    "eslint-config-ericbiewener": "5.4.0"
   },
   "peerDependencies": {
-    "eslint": "^6.5.1"
+    "babel-eslint": "^11.0.0-beta.0",
+    "eslint": "^6.5.1",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "typescript": "^3.7.4"
   },
   "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
 }

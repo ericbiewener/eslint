@@ -10,10 +10,10 @@
     "eslint": "eslint --fix \"**/*.{js,jsx,ts,tsx,gql}\""
   },
   "devDependencies": {
-    "@babel/core": "7.8.0",
+    "@babel/core": "7.9.0",
     "eslint": "6.8.0",
-    "husky": "4.0.7",
-    "lint-staged": "9.5.0"
+    "husky": "4.2.3",
+    "lint-staged": "10.1.2"
   },
   "lint-staged": {
     "**/*.{json,yml}": [
@@ -22,8 +22,7 @@
     ],
     "**/*.{js,jsx,ts,tsx,gql}": [
       "prettier --write",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
   },
   "husky": {
@@ -32,6 +31,6 @@
     }
   },
   "dependencies": {
-    "prettier": "1.19.1"
+    "prettier": "2.0.3"
   }
 }
