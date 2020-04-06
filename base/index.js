@@ -33,6 +33,7 @@ module.exports = {
       'error',
       {
         code: 100,
+        ignoreComments: true,
         ignoreTrailingComments: true,
         ignoreUrls: true,
         ignoreStrings: true,
