@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericbiewener",
-  "version": "5.12.3",
+  "version": "5.12.4",
   "description": "Personal ESLint config",
   "main": "index.js",
   "repository": {
@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/ericbiewener/eslint#readme",
   "peerDependencies": {
-    "babel-eslint": "^11.0.0-beta.0",
-    "eslint": "^6.5.1",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*"
   },
   "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
 }
