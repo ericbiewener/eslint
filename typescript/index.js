@@ -31,6 +31,7 @@ module.exports = {
       'error',
       { accessibility: 'no-public' },
     ],
+    '@typescript-eslint/explicit-module-boundary-types': 0,
   },
   overrides: [
     {
