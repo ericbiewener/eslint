@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericbiewener-typescript",
-  "version": "5.14.0",
+  "version": "5.14.1",
   "description": "Personal ESLint config for Typescript projects",
   "main": "index.js",
   "repository": {
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ericbiewener/eslint#readme",
   "dependencies": {
     "base": "*",
-    "eslint-config-ericbiewener": "5.12.4"
+    "eslint-config-ericbiewener": "5.13.1"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "*",
