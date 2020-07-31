@@ -12,8 +12,8 @@ module.exports = {
   rules: {
     'interface-over-type-literal': 0,
     'require-array-sort-compare': 0,
-    'no-unused-vars': 0,
     '@typescript-eslint/no-explicit-any': 0,
+    'no-unused-vars': 0,
     '@typescript-eslint/no-unused-vars-experimental': [
       'error',
       { ignoreArgsIfArgsAfterAreUsed: true },
@@ -31,6 +31,8 @@ module.exports = {
       { accessibility: 'no-public' },
     ],
     '@typescript-eslint/explicit-module-boundary-types': 0,
+    'no-unused-expressions': 0,
+    '@typescript-eslint/no-unused-expressions': 2,
   },
   overrides: [
     {
